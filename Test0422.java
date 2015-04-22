@@ -7,3 +7,12 @@
 		new C().avgFunc(x, y);
 	}
 }
+class A{
+	void minFunc(int a,int b){
+		if(a>b){
+			System.out.print(b);
+		}else
+			System.out.print(a);
+	}
+}
+	
