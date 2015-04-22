@@ -7,6 +7,7 @@ public class Test0422{
 		new C().avgFunc(x, y);
 	}
 }
+<<<<<<< HEAD
 class C{
 	 void avgFunc(int a,int b){
 	float avg;
@@ -15,3 +16,14 @@ class C{
 	}
 
 }
+=======
+class A{
+	void minFunc(int a,int b){
+		if(a>b){
+			System.out.print(b);
+		}else
+			System.out.print(a);
+	}
+}
+	
+>>>>>>> 2de14ea3117dee1bb8a9b01998aa96f27b260eab
